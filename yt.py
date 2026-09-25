@@ -50,6 +50,23 @@ if choice == '1':
 
 elif choice == '2':
     print('Beleive in yourself. You can do anything')
+    a = input('Type "more" for more motivation: ')
+    print(a)
+    if a == 'more':
+        print ('Practice makes the man perfect')
+        b = input('Type "more" for more motivation: ')
+        if b == 'more':
+            print('Journey of thousand miles starts with a single step')
+            c = input('Type "more" for more motivation: ')
+            if c == 'more':
+                print('Failures are stepping stones to success')
+            else:
+                print('First act upon this and then you will get more motivation')
+        else:
+            print('First act upon this and then you will get more motivation')
+    else:
+        print('First act upon this and then you will get more motivation')
+
 elif choice == '3':
     print('Never gave up. Understand every topic and ask questions until not all clear')
 elif choice == '4':
